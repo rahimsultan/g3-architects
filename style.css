@@ -1,5 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap");
+
+/* Shared Style */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  font-family: "Work Sans", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.title {
+  color: #131313;
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.description {
+  color: #727272;
+  font-size: 16px;
+  font-family: Work Sans;
+  font-weight: 400;
+}
+
+.btn {
+  background: #ff900e;
+  border-radius: 8px;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 20px 25px;
+  border: none;
+}
+
+/* Header */
+
+header {
+  background: rgba(255, 144.05, 13.81, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+nav {
+  max-width: 100%;
+  width: 1440px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 0;
+  margin: 0 auto;
+}
+
+nav ul {
+  display: flex;
+  gap: 40px;
+}
+
+ul li a {
+  color: #424242;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.header__content {
+  text-align: center;
+  margin: 0 auto;
+  padding: 50px 0px;
+}
+
+.header__content h1 {
+  color: #131313;
+  font-size: 64px;
+  font-weight: 700;
+}
+
+.header__content .description {
+  max-width: 868px;
+  margin: 20px auto 30px auto;
+}
+
+.header__img {
+  margin: 0 auto;
+  padding-bottom: 50px;
 }
