@@ -49,6 +49,7 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding: 0 30px;
 }
 
 nav {
@@ -107,6 +108,7 @@ ul li a {
   justify-content: space-between;
   align-items: center;
   gap: 75px;
+  padding: 0 30px;
 }
 
 .feature__img {
@@ -184,8 +186,9 @@ ul li a {
 }
 
 .feature-part__img img {
-  max-width: 100%;
+  max-width: 85%;
   margin-left: 100px;
+  display: block;
 }
 .feature-part__img {
   position: relative;
@@ -364,6 +367,7 @@ ul li a {
 
   .feature-part__img img {
     margin-left: 0;
+    max-width: 100%;
   }
   .box {
     max-width: 200px;
