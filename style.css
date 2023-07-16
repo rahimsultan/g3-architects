@@ -213,6 +213,22 @@ ul li a {
   max-width: 100%;
 }
 
+/* Footer Area */
+.footer {
+  text-align: center;
+  max-width: 1440px;
+  padding: 0 30px;
+  margin: 50px auto;
+}
+.footer__text {
+  color: #424242;
+  font-size: 20px;
+  font-weight: 400;
+  background-color: #fff4e7;
+  border-radius: 8px;
+  padding: 40px 0;
+}
+
 /* Responsive Media Query */
 
 /* ========= Mobile Devices =========== */
@@ -285,6 +301,11 @@ ul li a {
   .sponsor-img {
     flex-direction: column;
     gap: 30px;
+  }
+  /* Footer */
+  .footer__text {
+    font-size: 16px;
+    padding: 40px 20px;
   }
 }
 
