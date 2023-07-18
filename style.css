@@ -310,7 +310,7 @@ ul li a {
 
 /* Laptop Devices */
 
-@media (max-width: 1024px) {
+@media screen and (min-width: 769px) and (max-width: 1024px) {
   header {
     padding: 0 30px;
   }
@@ -367,7 +367,7 @@ ul li a {
 
 /* ========= Tablet Devices =========== */
 
-@media (max-width: 768px) {
+@media screen and (min-width: 577px) and (max-width: 768px) {
   header {
     padding: 30px 25px;
   }
@@ -446,7 +446,7 @@ ul li a {
 
 /* ========= Mobile Devices =========== */
 
-@media (max-width: 576px) {
+@media screen and (max-width: 576px) {
   header {
     padding: 20px 16px;
   }
