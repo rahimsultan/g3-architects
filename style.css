@@ -414,8 +414,13 @@ ul li a {
     max-width: 370px;
   }
 
+  .feature-part__img {
+    max-width: 100%;
+  }
+
   .feature-part__img img {
     margin-left: 0;
+    max-width: 100%;
   }
   .box {
     left: 50%;
